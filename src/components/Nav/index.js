@@ -5,21 +5,21 @@ function Nav() {
         <nav className="navbar" role="navigation">
             
             <div className="navbar-brand">
-                <h1 className="nav-title navbar-item">Ava Bullock</h1>
+                <h1 className="nav-title grad">Ava Bullock</h1>
             </div>
 
-            <div className="navbar-menu">
+            <div className="navbar-menu grad">
                 <div className="navbar-start">
-                    <a className="navbar-item">
+                    <a className="navbar-item grad">
                         About Me
                   </a>
-                    <a className="navbar-item">
+                    <a className="navbar-item grad">
                         Portfolio
                   </a>
-                    <a className="navbar-item">
+                    <a className="navbar-item grad">
                         Contact
                   </a>
-                    <a className="navbar-item">
+                    <a className="navbar-item grad">
                         Resume
                   </a>
 

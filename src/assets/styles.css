@@ -26,6 +26,7 @@
 }
 
 /* navbar stylings */
+
 .navbar {
     padding-bottom: 15px;
     background-color: var(--silver-pink);
@@ -34,6 +35,9 @@ h1.nav-title{
     font-weight: bolder;
     font-size: 35px;
     background-color: var(--peach-puff);
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: 'Norican', cursive;
 }
 
 .navbar-menu, .navbar-item {
@@ -43,10 +47,14 @@ h1.nav-title{
 .navbar-item {
     color: var(--wintergreen-dream);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 28px;
+    padding-left: 55px;
 }
 
 a.navbar-item:hover {
-    background-color: (var(--silver-pink));
-    color: var(--key-lime);
+    color: var(--silver-pink);
+}
+
+.grad {
+    background-image: linear-gradient(var(--key-lime), var(--silver-pink))
 }
