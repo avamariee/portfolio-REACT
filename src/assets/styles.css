@@ -1,0 +1,26 @@
+/* CSS HSL */
+/* --wintergreen-dream: hsla(153, 14%, 45%, 1);
+--granny-smith-apple: hsla(127, 60%, 73%, 1);
+--key-lime: hsla(72, 76%, 76%, 1);
+--peach-puff: hsla(27, 79%, 83%, 1);
+--silver-pink: hsla(6, 33%, 75%, 1); */
+/* CSS HEX */
+/* Palette generated with Coolers.co. */
+
+:root {
+--wintergreen-dream: #638475ff;
+--granny-smith-apple: #90e39aff;
+--key-lime: #ddf093ff;
+--peach-puff: #f6d0b1ff;
+--silver-pink: #d5b0acff;
+}
+
+*, html {
+    background-color: var(--silver-pink);
+    color: var(--wintergreen-dream);
+    font-family: 'Karla', sans-serif;
+}
+
+.title{
+    color: var(--wintergreen-dream);
+}
