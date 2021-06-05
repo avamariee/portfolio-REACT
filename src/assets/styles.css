@@ -21,6 +21,32 @@
     font-family: 'Karla', sans-serif;
 }
 
-.title{
+.title, .nav-title {
     color: var(--wintergreen-dream);
+}
+
+/* navbar stylings */
+.navbar {
+    padding-bottom: 15px;
+    background-color: var(--silver-pink);
+}
+h1.nav-title{
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: var(--peach-puff);
+}
+
+.navbar-menu, .navbar-item {
+    background-color: var(--peach-puff);
+}
+
+.navbar-item {
+    color: var(--wintergreen-dream);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+a.navbar-item:hover {
+    background-color: (var(--silver-pink));
+    color: var(--key-lime);
 }
