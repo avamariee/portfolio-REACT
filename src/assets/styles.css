@@ -58,3 +58,26 @@ a.navbar-item:hover {
 .grad {
     background-image: linear-gradient(var(--key-lime), var(--silver-pink))
 }
+
+/* end navbar stylings */
+
+/* about stylings */
+.ava {
+    display: block;
+    text-align: center;
+}
+
+img {
+    border-radius: 50px;
+}
+.about {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 100px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--key-lime);
+    font-family: 'Norican', cursive;
+}
