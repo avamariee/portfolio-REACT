@@ -84,11 +84,26 @@ img {
 /* end about stylings */
 
 /* projects stylings */
-/* 
-.images {
-    height: 700px;
-    width: 700px;
-    overflow: hidden;
-} */
+
+
+.images img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    background-position: cover;
+    margin-right: 10px;
+}
+
+.images > div {
+    width: calc(100% - 10px);
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    
+}
+
+
 
 /* end projects stylings */

@@ -10,10 +10,10 @@ function ProjectList() {
 
   
     return (
-        <div className="images">
+        <div className="images is-fullwidth">
           <div className="columns">
                <div className="column is-half is-offset-one-quarter">
-                   <a href="https://avamariee.github.io/pet-adoption-quiz/" target="_blank" rel="noreferrer">
+                   <a className="image is-3by1" href="https://avamariee.github.io/pet-adoption-quiz/" target="_blank" rel="noreferrer">
                     <img
                         src={DogsVsCats}
                         alt="A quiz website to see if you are a dog or a cat person, complete with facts about pet adoptions, and adoption links."
@@ -23,7 +23,7 @@ function ProjectList() {
           </div>
             <div className="columns">
                 <div className="column is-half">
-                <a href="https://stark-depths-18071.herokuapp.com/" target="_blank" rel="noreferrer">
+                <a className="image is-3by1" href="https://stark-depths-18071.herokuapp.com/" target="_blank" rel="noreferrer">
                     <img
                         src={JustMyType}
                         alt="Example"
@@ -31,7 +31,7 @@ function ProjectList() {
                     </a>
                 </div>
                 <div className="column is-half">
-                <a href="https://avamariee.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+                <a className="image is-3by1"href="https://avamariee.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
                     <img
                         src={WeatherDashboard}
                         alt="Example"
@@ -39,24 +39,26 @@ function ProjectList() {
                     </a>
                 </div>
             </div>
-            <div className="columns">
-                <div className="column is-half">
-                <a href="https://pacific-escarpment-48422.herokuapp.com/" target="_blank" rel="noreferrer">
-                    <img
-                        src={YourFavTech}
-                        alt="Example"
-                    />
-                    </a>
+            
+                <div className="columns">
+                    <div className="column is-half">
+                    <a className="image is-3by1" href="https://pacific-escarpment-48422.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img
+                            src={YourFavTech}
+                            alt="Example"
+                        />
+                        </a>
+                    </div>
+                     <div className="column is-half">
+                     <a className="image is-3by1" href="https://avamariee.github.io/work-day-scheduler/" target="_blank" rel="noreferrer">
+                         <img
+                            src={WorkDayScheduler}
+                            alt="Example"
+                        />
+                        </a>
+                     </div>
                 </div>
-                 <div className="column is-half">
-                 <a href="https://avamariee.github.io/work-day-scheduler/" target="_blank" rel="noreferrer">
-                     <img
-                        src={WorkDayScheduler}
-                        alt="Example"
-                    />
-                    </a>
-                 </div>
-            </div>
+            
             
         </div>
     )
