@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect} from 'react';
 
 function Nav(props) {
 
+    
     const {
         navItems = [],
         setCurrentItem,
         currentItem
     } = props;
-
     
-   
-    function itemSelected(name){
-        console.log(`${name} clicked`)
-    }
+    useEffect(() => {
+        document.title = currentItem.name;
+    }, [currentItem]);
+    
 
 
     return (
@@ -27,7 +27,7 @@ function Nav(props) {
             <div className="navbar-menu grad">
                 <div className="navbar-start">
                   <li className="navbar-item grad">
-                        <a className="navbar-item grad" href="/">
+                        <a className="navbar-item grad" href="#about">
                             About Me
                       </a>
                   </li>
@@ -40,7 +40,7 @@ function Nav(props) {
                       }`}
                       key={item.name}
                       >
-                          <span onClick={() => itemSelected(item.name)}>
+                          <span onClick={() => setCurrentItem(item)}>
                               {item.name}
                           </span>
                       </li>
