@@ -144,6 +144,48 @@ h2 {
 }
 /* end resume stylings */
 
+/* contact stylings */
+
+.input, .textarea {
+    width: 50%;
+    min-width: 50%;
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+}
+
+.label {
+    font-size: 20px;
+    color:var(--wintergreen-dream);
+    font-weight: bolder;
+
+}
+
+.nonop {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button, .button.is-link {
+
+    margin-bottom: 100px;
+    background-color: var(--key-lime);
+    color: var(--wintergreen-dream);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.button, .button.is-link:hover {
+    background-color: var(--wintergreen-dream);
+    color: var(--key-lime);
+}
+
+
+
+/* end contact stylings */
+
 /* footer stylings */
 
 .footer {

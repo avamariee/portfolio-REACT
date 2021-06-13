@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import ProjectList from './components/ProjectList';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -37,10 +38,11 @@ function App() {
       case "portfolio":
         return <ProjectList />;
 
-        case "Resume":
-          return <Resume />;
-      // case "contact":
-      //   return <Contact />;
+      case "Resume":
+        return <Resume />;
+
+      case "Contact":
+        return <Contact />;
 
 
       default:
