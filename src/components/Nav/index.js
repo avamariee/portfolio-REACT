@@ -17,8 +17,13 @@ function Nav() {
         }
     ]
 
+    function itemSelected(name){
+        console.log(`${name} clicked`)
+    }
+
 
     return (
+        
         <nav className="navbar" role="navigation">
             
             <div className="navbar-brand">
@@ -28,18 +33,33 @@ function Nav() {
 
             <div className="navbar-menu grad">
                 <div className="navbar-start">
-                    <a className="navbar-item grad" href="/">
-                        About Me
-                  </a>
-                    <a className="navbar-item grad" href="#portfolio">
-                        Portfolio
-                  </a>
+                  <li className="navbar-item grad">
+                        <a className="navbar-item grad" href="/">
+                            About Me
+                      </a>
+                  </li>
+                  {navItems.map((item) => (
+                      <li
+                      className="navbar-item grad"
+                      key={item.name}
+                      >
+                          <span onClick={() => itemSelected(item.name)}>
+                              {item.name}
+                          </span>
+                      </li>
+                  ))}
+
+                    {/* <li className="navbar-item grad">
+                        <a className="navbar-item grad" href="#portfolio">
+                            Portfolio
+                      </a>
+                    </li>
                     <a className="navbar-item grad" href="#contact">
                         Contact
                   </a>
                     <a className="navbar-item grad" href="#resume">
                         Resume
-                  </a>
+                  </a> */}
 
                 </div>
             </div>
