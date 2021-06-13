@@ -1,22 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Nav() {
+function Nav(props) {
 
-    const navItems = [
-        {
-            name: 'Portfolio',
-            description: 'A list of all of the projects I have contributed to.'
-        },
-        {
-            name: 'Contact',
-            description: 'Contact information to reach me.'
-        },
-        {
-            name: 'Resume',
-            description: 'A link to download my resume.'
-        }
-    ]
+    const {
+        navItems = [],
+        setCurrentItem,
+        currentItem
+    } = props;
 
+    
+   
     function itemSelected(name){
         console.log(`${name} clicked`)
     }
@@ -40,7 +33,11 @@ function Nav() {
                   </li>
                   {navItems.map((item) => (
                       <li
-                      className="navbar-item grad"
+                      className={`navbar-item grad ${
+
+                        currentItem.name === item.name && 'navActive'
+
+                      }`}
                       key={item.name}
                       >
                           <span onClick={() => itemSelected(item.name)}>
