@@ -25,31 +25,31 @@ function Nav(props) {
             
 
             <div className="navbar-menu grad">
-                <div className="navbar-start">
+                <div className="navbar-start grad">
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
-                           <span onClick={() => setCurrentItem("about")}>
+                           <span className="grad" onClick={() => setCurrentItem("about")}>
                                About Me
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
-                           <span onClick={() => setCurrentItem("portfolio")}>
+                           <span className="grad" onClick={() => setCurrentItem("portfolio")}>
                                Portfolio
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
-                           <span onClick={() => setCurrentItem("Resume")}>
+                           <span className="grad" onClick={() => setCurrentItem("Resume")}>
                                Resume
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
-                           <span onClick={() => setCurrentItem("Contact")}>
+                           <span className="grad" onClick={() => setCurrentItem("Contact")}>
                                Contact
                            </span>
                       </a>

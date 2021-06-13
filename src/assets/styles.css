@@ -36,7 +36,7 @@ h1.nav-title{
     font-size: 35px;
     background-color: var(--peach-puff);
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
     font-family: 'Norican', cursive;
 }
 
@@ -48,15 +48,15 @@ h1.nav-title{
     color: var(--wintergreen-dream);
     font-weight: bolder;
     font-size: 28px;
-    padding-left: 55px;
+    padding-left: 100px;
 }
 
 a.navbar-item:hover {
-    color: var(--silver-pink);
+    opacity: .5;
 }
 
 .grad {
-    background-image: linear-gradient(var(--key-lime), var(--silver-pink))
+    background-image: linear-gradient(var(--key-lime), var(--key-lime))
 }
 
 /* end navbar stylings */
@@ -92,18 +92,30 @@ img {
     flex: 1;
     justify-content: space-around;
     background-position: cover;
-    margin-right: 10px;
+    margin-right: -10px;
 }
 
 .images > div {
     width: calc(100% - 10px);
     height: 350px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    padding-left: 20px;
     
 }
 
+
+img:hover {
+    opacity: 0.4;
+    transition: .5s ease;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
 
 
 /* end projects stylings */

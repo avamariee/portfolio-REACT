@@ -14,7 +14,7 @@ function About() {
             <div className="columns is-mobile">
                 <div className="column is-three-fifths is-offset-one-fifth">
                     <div className="ava">
-                        <img src={self} style={{ width: "20%" }} alt="Selfie of Ava"/>
+                        <a href="https://github.com/avamariee" target="_blank"><img src={self} style={{ width: "20%" }} alt="Selfie of Ava"/></a>
                         </div>
                     <p className="about">
                         Hello, and welcome to my portfolio! <br></br> My name is Ava Bullock, and I'm a Full Stack Web Developer.

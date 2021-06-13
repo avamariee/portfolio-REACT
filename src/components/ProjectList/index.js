@@ -13,6 +13,7 @@ function ProjectList() {
         <div className="images is-fullwidth">
           <div className="columns">
                <div className="column is-half is-offset-one-quarter">
+                   <h2 className="port-title is-centered">Pet Adoption Quiz</h2>
                    <a className="image is-3by1" href="https://avamariee.github.io/pet-adoption-quiz/" target="_blank" rel="noreferrer">
                     <img
                         src={DogsVsCats}
@@ -23,6 +24,7 @@ function ProjectList() {
           </div>
             <div className="columns">
                 <div className="column is-half">
+                    <h2> Just My Type </h2>
                 <a className="image is-3by1" href="https://stark-depths-18071.herokuapp.com/" target="_blank" rel="noreferrer">
                     <img
                         src={JustMyType}
@@ -31,6 +33,7 @@ function ProjectList() {
                     </a>
                 </div>
                 <div className="column is-half">
+                    <h2> Weather Dashboard </h2>
                 <a className="image is-3by1"href="https://avamariee.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
                     <img
                         src={WeatherDashboard}
@@ -42,6 +45,7 @@ function ProjectList() {
             
                 <div className="columns">
                     <div className="column is-half">
+                        <h2> Your Favorite Tech Blog </h2>
                     <a className="image is-3by1" href="https://pacific-escarpment-48422.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img
                             src={YourFavTech}
@@ -50,6 +54,7 @@ function ProjectList() {
                         </a>
                     </div>
                      <div className="column is-half">
+                         <h2> Work Day Scheduler </h2>
                      <a className="image is-3by1" href="https://avamariee.github.io/work-day-scheduler/" target="_blank" rel="noreferrer">
                          <img
                             src={WorkDayScheduler}
