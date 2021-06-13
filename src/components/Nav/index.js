@@ -40,9 +40,9 @@ function Nav(props) {
                       }`}
                       key={item.name}
                       >
-                          <span onClick={() => setCurrentItem(item)}>
+                          <a className="navbar-item grad" onClick={() => setCurrentItem(item)}>
                               {item.name}
-                          </span>
+                          </a>
                       </li>
                   ))}
 
