@@ -4,6 +4,7 @@ import './assets/styles.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import ProjectList from './components/ProjectList';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -62,6 +63,7 @@ function App() {
           {displayPage()}
         </main>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

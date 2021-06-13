@@ -29,28 +29,28 @@ function Nav(props) {
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
                            <span className="grad" onClick={() => setCurrentItem("about")}>
-                               About Me
+                               About Me <i class="fas fa-smile grad"></i>
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
                            <span className="grad" onClick={() => setCurrentItem("portfolio")}>
-                               Portfolio
+                               Portfolio <i class="fas fa-folder-open grad"></i>
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
                            <span className="grad" onClick={() => setCurrentItem("Resume")}>
-                               Resume
+                               Resume <i class="fas fa-file grad"></i>
                            </span>
                       </a>
                   </li>
                   <li className="navbar-item grad">
                         <a className="navbar-item grad">
                            <span className="grad" onClick={() => setCurrentItem("Contact")}>
-                               Contact
+                               Contact <i class="fas fa-id-card grad"></i>
                            </span>
                       </a>
                   </li>

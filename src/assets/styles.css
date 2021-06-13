@@ -9,13 +9,12 @@
 
 :root {
 --wintergreen-dream: #638475ff;
---granny-smith-apple: #90e39aff;
 --key-lime: #ddf093ff;
 --peach-puff: #f6d0b1ff;
 --silver-pink: #d5b0acff;
 }
 
-*, html {
+*, html, .footer {
     background-color: var(--silver-pink);
     color: var(--wintergreen-dream);
     font-family: 'Karla', sans-serif;
@@ -119,3 +118,21 @@ h2 {
 
 
 /* end projects stylings */
+
+/* footer stylings */
+
+.footer {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.footer i {
+    padding: 5px;
+    font-size: 40px;
+}
+
+.footer i:hover {
+    color: var(--key-lime);
+}
+/* end footer stylings */

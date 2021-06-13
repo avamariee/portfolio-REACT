@@ -20,7 +20,7 @@ function About() {
                         Hello, and welcome to my portfolio! <br></br> My name is Ava Bullock, and I'm a Full Stack Web Developer.
                             <br></br>When I'm not coding up a storm, I enjoy playing story-driven video games, playing with my cats, and cooking!
                             <br></br>If you'd like to see the projects I've worked on, please select the "Portfolio" tab above!
-                            I look forward to working with you. ♥
+                            I look forward to working with you. 
                         </p>
                 </div>
             </div>
