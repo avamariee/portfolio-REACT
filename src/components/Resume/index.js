@@ -20,7 +20,7 @@ function Resume() {
                         <li><i class="fas fa-check-square"></i>APIs</li>
 
                     </ul>
-                    You can view my resume <a className="resume-anchor" href="https://docs.google.com/document/d/1_BjkZpf2Li7jKkTnJcDm8zEZPu6pbA7uKkjZm5xvmLk/edit?usp=sharing" target="_blank">here.</a>
+                    You can view my resume <a className="resume-anchor" href={require('../../assets/resume/Ava_Bullock_Resume.pdf').default} target="_blank" download>here.</a>
                 </h2>
             </div>
         </section>

@@ -203,3 +203,67 @@ h2 {
     color: var(--key-lime);
 }
 /* end footer stylings */
+
+/* mobile stylings */
+@media screen and (max-width: 1024px) {
+
+    h1.nav-title{
+        font-weight: bolder;
+        font-size: 50px;
+        margin: auto;
+    }
+
+    .navbar-brand {
+        background-color: var(--key-lime);
+    }
+
+    .navbar-menu, .navbar-item {
+        text-align: center;
+    }
+
+    .title {
+        margin: auto;
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 812px) {
+
+   .title {
+       font-size: 60px;
+       margin-left: -80px;
+   }
+
+   p.about {
+       font-size: 20px;
+   }
+
+   .navbar-menu, .navbar-item {
+    text-align: center;
+    margin-left: -50px;
+}
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .title {
+        font-size: 60px;
+        margin-left: -80px;
+    }
+ 
+    p.about {
+        font-size: 20px;
+    }
+ 
+    .navbar-menu, .navbar-item {
+     text-align: center;
+     margin-left: -50px;
+ }
+ 
+ 
+ }
+/* end mobile stylings */
