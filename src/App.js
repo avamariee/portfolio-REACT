@@ -7,6 +7,10 @@ import Projects from './components/Projects'
 
 function App() {
 
+  // use possible switch case to render different pages?
+  // create function to render page instead of rendering everything at once
+  
+
   const [navItems] = useState([
     {
       name: 'Portfolio',

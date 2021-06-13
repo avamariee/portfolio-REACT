@@ -1,25 +1,16 @@
 import React from 'react';
-import photo from "../../assets/images/dogs-vs-cats.JPG"
+import ProjectList from '../ProjectList';
 
-function Projects(props){
+function Projects(currentProject){
 
-    const currentProject = {
-        name: 'first project',
-        description: 'this is the first project'
-    }
+    const { name, description } = currentProject;
     return(
         <section>
-            <h1>{currentProject.name}</h1>
-            <p>{currentProject.description}</p>
-            <div>
-                <img 
-                src={photo}
-                alt='Screenshot of the project.'
-                className='images'
-                >
-
-                </img>
-            </div>
+            <h1>{name}</h1>
+            <p>{description}</p>
+            <ProjectList>
+                
+            </ProjectList>
         </section>
     )
 }
