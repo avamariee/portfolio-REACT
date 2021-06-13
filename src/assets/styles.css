@@ -119,6 +119,31 @@ h2 {
 
 /* end projects stylings */
 
+/* resume stylings */
+
+.resume {
+    font-size: 100px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: var(--wintergreen-dream);
+    padding-bottom: 50px;
+}
+
+.resume-anchor {
+    color: var(--key-lime);
+    font-weight: bolder;
+}
+
+.fa-check-square {
+    color: var(--key-lime);
+    padding-right: 5px;
+}
+/* end resume stylings */
+
 /* footer stylings */
 
 .footer {
