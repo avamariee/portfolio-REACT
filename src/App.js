@@ -3,14 +3,12 @@ import './assets/styles.css';
 
 import About from './components/About';
 import Nav from './components/Nav';
-import Projects from './components/Projects'
+import ProjectList from './components/ProjectList';
 
 function App() {
 
   // use possible switch case to render different pages?
   // create function to render page instead of rendering everything at once
-  
-
   const [navItems] = useState([
     {
       name: 'Portfolio',
@@ -25,8 +23,27 @@ function App() {
       description: 'A link to download my resume.'
     }
   ]);
-
+  
   const [currentItem, setCurrentItem] = useState(navItems[0]);
+
+  const displayPage = () => {
+    switch(currentItem) {
+      case "about":
+        return <About />;
+        case "portfolio":
+          return <ProjectList/>
+          // case "contact":
+          //   return <Contact />
+          //   case "resume":
+          //     return <Resume />
+              default:
+                return <About />
+    }
+  }
+
+
+
+
 
   return (
     <div>
@@ -36,7 +53,7 @@ function App() {
       currentItem={currentItem}
       ></Nav>
       <main>
-        <Projects></Projects>
+        <ProjectList></ProjectList>
         <About></About>
       </main>
     </div>

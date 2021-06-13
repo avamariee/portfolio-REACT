@@ -84,9 +84,11 @@ img {
 /* end about stylings */
 
 /* projects stylings */
-
+/* 
 .images {
-    max-width: 25%;
-}
+    height: 700px;
+    width: 700px;
+    overflow: hidden;
+} */
 
 /* end projects stylings */
