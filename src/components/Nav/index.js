@@ -4,14 +4,14 @@ function Nav(props) {
 
     
     const {
-        navItems = [],
         setCurrentItem,
         currentItem
     } = props;
     
     useEffect(() => {
-        document.title = currentItem.name;
+        document.title = currentItem;
     }, [currentItem]);
+    console.log(currentItem)
     
 
 
@@ -27,36 +27,33 @@ function Nav(props) {
             <div className="navbar-menu grad">
                 <div className="navbar-start">
                   <li className="navbar-item grad">
-                        <a className="navbar-item grad" href="#about">
-                            About Me
+                        <a className="navbar-item grad">
+                           <span onClick={() => setCurrentItem("about")}>
+                               About Me
+                           </span>
                       </a>
                   </li>
-                  {navItems.map((item) => (
-                      <li
-                      className={`navbar-item grad ${
-
-                        currentItem.name === item.name && 'navActive'
-
-                      }`}
-                      key={item.name}
-                      >
-                          <a className="navbar-item grad" onClick={() => setCurrentItem(item)}>
-                              {item.name}
-                          </a>
-                      </li>
-                  ))}
-
-                    {/* <li className="navbar-item grad">
-                        <a className="navbar-item grad" href="#portfolio">
-                            Portfolio
+                  <li className="navbar-item grad">
+                        <a className="navbar-item grad">
+                           <span onClick={() => setCurrentItem("portfolio")}>
+                               Portfolio
+                           </span>
                       </a>
-                    </li>
-                    <a className="navbar-item grad" href="#contact">
-                        Contact
-                  </a>
-                    <a className="navbar-item grad" href="#resume">
-                        Resume
-                  </a> */}
+                  </li>
+                  <li className="navbar-item grad">
+                        <a className="navbar-item grad">
+                           <span onClick={() => setCurrentItem("Resume")}>
+                               Resume
+                           </span>
+                      </a>
+                  </li>
+                  <li className="navbar-item grad">
+                        <a className="navbar-item grad">
+                           <span onClick={() => setCurrentItem("Contact")}>
+                               Contact
+                           </span>
+                      </a>
+                  </li>
 
                 </div>
             </div>
