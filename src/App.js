@@ -11,6 +11,7 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
+        <Projects></Projects>
         <About></About>
       </main>
     </div>

@@ -81,3 +81,12 @@ img {
     color: var(--key-lime);
     font-family: 'Norican', cursive;
 }
+/* end about stylings */
+
+/* projects stylings */
+
+.images {
+    max-width: 25%;
+}
+
+/* end projects stylings */
