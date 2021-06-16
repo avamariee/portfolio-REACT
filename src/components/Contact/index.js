@@ -38,6 +38,7 @@ function Contact() {
 
         <div class="contact">
             <h1 class="nonop">Coming Soon - Not Currently Operational</h1>
+            <h1 class="nonop">In the mean time, please consider contacting me here: ava.m.bullock@gmail.com</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="field">
                     <label className="label">Name</label>
