@@ -2,7 +2,7 @@ import React from 'react'
 
 import DogsVsCats from '../../assets/images/dogs-vs-cats.JPG'
 import JustMyType from '../../assets/images/just-my-type.JPG'
-import WeatherDashboard from '../../assets/images/weather-dashboard.jpg'
+import ZeroStars from '../../assets/images/zerostars.JPG'
 import YourFavTech from '../../assets/images/your-fav-tech-blog.JPG'
 import WorkDayScheduler from '../../assets/images/work-day-scheduler.jpg'
 import PizzaHunt from '../../assets/images/pizza-hunt.JPG'
@@ -43,11 +43,11 @@ function ProjectList() {
                     </a>
                 </div>
                 <div className="column is-half">
-                    <h2> Weather Dashboard </h2>
-                    <a className="image is-3by1" href="https://avamariee.github.io/weather-dashboard/" target="_blank" rel="noreferrer">
+                    <h2> Zero Stars </h2>
+                    <a className="image is-3by1" href="https://zero-stars-8.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img
-                            src={WeatherDashboard}
-                            alt="A website where you can search for weather information in any city."
+                            src={ZeroStars}
+                            alt="A website that is essentially a backwards yelp, showcasing terrible reviews."
                         />
                     </a>
                 </div>
